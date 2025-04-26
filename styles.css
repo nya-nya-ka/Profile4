@@ -80,7 +80,7 @@ body {
 .page-title {
   font-family: "Cormorant", serif;
   font-weight: 200;
-  font-size: 1.5rem;
+  font-size: clamp(0.4rem, 6vw, 1.5rem);
   color: #f5f2f2;
   position: absolute;
   top: 60%;         /* ← 上から60%の位置 */
@@ -403,7 +403,6 @@ footer {
   }
 
   .page-title {
-    font-size: clamp(0.7rem, 6vw, 1.2rem); /* 少し大きめに戻す */
     letter-spacing: 0.3rem; /* 文字間隔を狭める */
   }
 }
