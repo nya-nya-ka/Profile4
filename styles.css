@@ -19,7 +19,7 @@ body {
   height: calc((100vh - 80px) * 3 / 4); /* ヘッダーを引いた領域の高さの3分の2 */
   object-fit: cover; /* 画像を枠に合わせて拡大または縮小 */
   position: absolute;
-  top: 50%; /* 画面の中央に配置 */
+  top: 55%; /* 画面の中央に配置 */
   left: 50%; /* 画面の中央に配置 */
   transform: translate(-50%, -50%); /* 中央揃え */
   pointer-events: none;
@@ -31,7 +31,7 @@ body {
   width: 100px; /* コンテナの幅 */
   height: 70px; /* コンテナの高さ */
   position: absolute; /* 絶対位置指定 */
-  top: calc(100vh * 23 / 32);
+  top: calc(100vh * 25 / 32);
   left: 49.9%;
   overflow: hidden; /* はみ出した部分を隠す */
 }
@@ -67,24 +67,28 @@ body {
   }
 }
 
-.image-container {
-  position: relative; /* これで親要素を基準にしてタイトルが配置できるようになります */
-  width: 75vw; /* 画像の幅と同じにします */
-  height: calc((100vh - 80px) * 3 / 4); /* 高さも画像と同じに調整 */
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* 中央に配置 */
+.small-logo {
+  position: absolute;
+  top: 10%;  /* 上からの位置を調整 */
+  left: 70%;
+  transform: translateX(-50%); /* 中央揃え */
+  width: 33vw; /* ロゴのサイズを調整 */
+  max-width: 200px; /* ロゴの最大サイズ */
+  z-index: 1; /* 背景の画像より手前に表示 */
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
 
 
 .page-title {
   font-family: "Cormorant", serif;
   font-weight: 200;
-  font-size: clamp(0.4rem, 6vw, 1.5rem);
+  font-size: clamp(0.3rem, 4vw, 1.5rem);
   color: #f5f2f2;
   position: absolute;
   top: 60%;         /* ← 上から60%の位置 */
-  left: 10%;        /* ← 左から10%の位置 */
+  left: 18%;        /* ← 左から10%の位置 */
   transform: translate(0, -50%);  /* ← 縦中央揃え */
   opacity: 1;       /* ← 表示するように */
   z-index: 10;      /* ← 背景画像より前に */
