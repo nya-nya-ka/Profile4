@@ -403,6 +403,7 @@ footer {
   }
 
   .page-title {
-    font-size: clamp(1.5rem, 6vw, 1.8rem); /* 少し大きめに戻す */
+    font-size: clamp(0.7rem, 6vw, 1.2rem); /* 少し大きめに戻す */
+    letter-spacing: 0.3rem; /* 文字間隔を狭める */
   }
 }
