@@ -155,7 +155,7 @@ body {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
   font-style: normal;
-  color: #3d3d3d;
+  color: rgb(0, 73, 92);
   font-size: clamp(0.7rem, 2vw, 1.0rem);
   opacity: 0;
   transform: translateX(30px);
@@ -182,7 +182,7 @@ body {
   font-weight: 400;
   font-style: normal;
   color: rgb(0, 73, 92);
-  font-size: clamp(0.80rem, 1.8vw, 1.3rem);
+  font-size: clamp(0.80rem, 1.8vw, 1.35rem);
   opacity: 0;
   transform: translateX(30px);
 }
