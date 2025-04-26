@@ -67,6 +67,14 @@ body {
   }
 }
 
+.image-container {
+  position: relative; /* これで親要素を基準にしてタイトルが配置できるようになります */
+  width: 75vw; /* 画像の幅と同じにします */
+  height: calc((100vh - 80px) * 3 / 4); /* 高さも画像と同じに調整 */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 中央に配置 */
+}
 
 
 .page-title {
@@ -75,15 +83,16 @@ body {
   font-size: 1.5rem;
   color: #f5f2f2;
   position: absolute;
-  top: 45%;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  transform: translateY(-50%);
-  opacity: 0;
-  z-index: 1;
-  letter-spacing: 1.0rem;
+  top: 60%;         /* ← 上から60%の位置 */
+  left: 10%;        /* ← 左から10%の位置 */
+  transform: translate(0, -50%);  /* ← 縦中央揃え */
+  opacity: 1;       /* ← 表示するように */
+  z-index: 10;      /* ← 背景画像より前に */
+  letter-spacing: 1rem;
+  line-height: 1.6;
+  text-align: left;
 }
+
 
 
 @keyframes fadeUp {
