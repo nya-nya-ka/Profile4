@@ -84,7 +84,7 @@ body {
 .page-title {
   font-family: "Cormorant", serif;
   font-weight: 200;
-  font-size: clamp(0.3rem, 4vw, 1.5rem);
+  font-size: clamp(0.3rem, 3.4vw, 1.3rem);
   color: #f5f2f2;
   position: absolute;
   top: 60%;         /* ← 上から60%の位置 */
@@ -92,7 +92,7 @@ body {
   transform: translate(0, -50%);  /* ← 縦中央揃え */
   opacity: 1;       /* ← 表示するように */
   z-index: 10;      /* ← 背景画像より前に */
-  letter-spacing: 1rem;
+  letter-spacing: 0.5rem;
   line-height: 1.6;
   text-align: left;
 }
