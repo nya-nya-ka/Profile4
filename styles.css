@@ -202,6 +202,11 @@ body {
   border: 1px solid #f9f9f9; /* 枠線 */
   border-radius: 20px; /* 角を丸く */
 }
+@media (max-width: 600px) {
+  .section2-5 {
+    margin: 2em 10vw 0 10vw;
+  }
+}
 
 .section4 {
   padding-top: 60px;
