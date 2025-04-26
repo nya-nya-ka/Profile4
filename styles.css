@@ -403,7 +403,6 @@ footer {
   }
 
   .page-title {
-    left: calc(50% - 30vw); /* ここも同じ調整 */
     font-size: clamp(1.5rem, 6vw, 1.8rem); /* 少し大きめに戻す */
   }
 }
