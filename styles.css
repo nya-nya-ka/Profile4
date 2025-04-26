@@ -187,8 +187,6 @@ body {
 }
 
 .section2-5{
-  padding-top: 0px;
-  padding-left: 25vw;
   font-family: "Klee One", cursive;
   font-weight: 400;
   font-style: normal;
@@ -204,7 +202,7 @@ body {
 }
 @media (max-width: 600px) {
   .section2-5 {
-    margin: 2em 10vw 0 10vw;
+    margin: 2em 5vw 0 5vw;
   }
 }
 
